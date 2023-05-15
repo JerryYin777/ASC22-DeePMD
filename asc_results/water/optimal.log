@@ -1,0 +1,142 @@
+[2022-03-04 08:42:49,338] DEEPMD INFO    deepmd.entrypoints.train                       _____               _____   __  __  _____           _     _  _   
+[2022-03-04 08:42:49,339] DEEPMD INFO    deepmd.entrypoints.train                      |  __ \             |  __ \ |  \/  ||  __ \         | |   (_)| |  
+[2022-03-04 08:42:49,339] DEEPMD INFO    deepmd.entrypoints.train                      | |  | |  ___   ___ | |__) || \  / || |  | | ______ | | __ _ | |_ 
+[2022-03-04 08:42:49,339] DEEPMD INFO    deepmd.entrypoints.train                      | |  | | / _ \ / _ \|  ___/ | |\/| || |  | ||______|| |/ /| || __|
+[2022-03-04 08:42:49,339] DEEPMD INFO    deepmd.entrypoints.train                      | |__| ||  __/|  __/| |     | |  | || |__| |        |   < | || |_ 
+[2022-03-04 08:42:49,339] DEEPMD INFO    deepmd.entrypoints.train                      |_____/  \___| \___||_|     |_|  |_||_____/         |_|\_\|_| \__|
+[2022-03-04 08:42:49,339] DEEPMD INFO    deepmd.entrypoints.train                      Please read and cite:
+[2022-03-04 08:42:49,339] DEEPMD INFO    deepmd.entrypoints.train                      Wang, Zhang, Han and E, Comput.Phys.Comm. 228, 178-184 (2018)
+[2022-03-04 08:42:49,339] DEEPMD INFO    deepmd.entrypoints.train                      installed to:         /tmp/pip-req-build-gjx1q61n/_skbuild/linux-x86_64-3.7/cmake-install
+[2022-03-04 08:42:49,339] DEEPMD INFO    deepmd.entrypoints.train                      source :              v2.0.2-59-gc5f88f3-dirty
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.entrypoints.train                      source brach:         asc-2022
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.entrypoints.train                      source commit:        c5f88f3
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.entrypoints.train                      source commit at:     2022-01-02 22:27:00 +0800
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.entrypoints.train                      build float prec:     double
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.entrypoints.train                      build with tf inc:    /home/asc22g0/CK/hov/lib/python3.7/site-packages/tensorflow/include
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.entrypoints.train                      build with tf lib:    
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.train.run_options                      ---Summary of the training---------------------------------------
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.train.run_options                      running on:           node1
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.train.run_options                      computing device:     gpu:0
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.train.run_options                      CUDA_VISIBLE_DEVICES: unset
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.train.run_options                      Count of visible GPU: 4
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.train.run_options                      num_intra_threads:    1
+[2022-03-04 08:42:49,340] DEEPMD INFO    deepmd.train.run_options                      num_inter_threads:    1
+[2022-03-04 08:42:49,341] DEEPMD INFO    deepmd.train.run_options                      -----------------------------------------------------------------
+[2022-03-04 08:42:50,375] DEEPMD INFO    deepmd.utils.data_system                      ---Summary of DataSystem: training     -----------------------------------------------
+[2022-03-04 08:42:50,375] DEEPMD INFO    deepmd.utils.data_system                      found 1 system(s):
+[2022-03-04 08:42:50,375] DEEPMD INFO    deepmd.utils.data_system                                                          system  natoms  bch_sz   n_bch   prob  pbc
+[2022-03-04 08:42:50,375] DEEPMD INFO    deepmd.utils.data_system                                                            data     192       1   40000  1.000    T
+[2022-03-04 08:42:50,375] DEEPMD INFO    deepmd.utils.data_system                      --------------------------------------------------------------------------------------
+[2022-03-04 08:42:50,375] DEEPMD INFO    deepmd.train.trainer                          training without frame parameter
+[2022-03-04 08:42:50,556] DEEPMD INFO    deepmd.train.trainer                          built lr
+[2022-03-04 08:42:51,178] DEEPMD INFO    deepmd.train.trainer                          built network
+[2022-03-04 08:42:52,152] DEEPMD INFO    deepmd.train.trainer                          built training
+[2022-03-04 08:42:52,194] DEEPMD INFO    deepmd.train.trainer                          initialize model from scratch
+[2022-03-04 08:42:53,154] DEEPMD INFO    deepmd.train.trainer                          start training at lr 5.00e-04 (== 5.00e-04), decay_step 5000, decay_rate 0.008379, final lr will be 3.51e-08
+[2022-03-04 08:42:55,474] DEEPMD INFO    deepmd.train.trainer                          batch     100 training time 1.82 s, testing time 0.01 s
+[2022-03-04 08:42:56,793] DEEPMD INFO    deepmd.train.trainer                          batch     200 training time 1.22 s, testing time 0.01 s
+[2022-03-04 08:42:58,080] DEEPMD INFO    deepmd.train.trainer                          batch     300 training time 1.19 s, testing time 0.01 s
+[2022-03-04 08:42:59,389] DEEPMD INFO    deepmd.train.trainer                          batch     400 training time 1.21 s, testing time 0.01 s
+[2022-03-04 08:43:00,574] DEEPMD INFO    deepmd.train.trainer                          batch     500 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:01,777] DEEPMD INFO    deepmd.train.trainer                          batch     600 training time 1.11 s, testing time 0.01 s
+[2022-03-04 08:43:02,967] DEEPMD INFO    deepmd.train.trainer                          batch     700 training time 1.10 s, testing time 0.01 s
+[2022-03-04 08:43:04,172] DEEPMD INFO    deepmd.train.trainer                          batch     800 training time 1.11 s, testing time 0.01 s
+[2022-03-04 08:43:05,379] DEEPMD INFO    deepmd.train.trainer                          batch     900 training time 1.12 s, testing time 0.01 s
+[2022-03-04 08:43:06,562] DEEPMD INFO    deepmd.train.trainer                          batch    1000 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:07,743] DEEPMD INFO    deepmd.train.trainer                          batch    1100 training time 1.10 s, testing time 0.01 s
+[2022-03-04 08:43:08,922] DEEPMD INFO    deepmd.train.trainer                          batch    1200 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:10,106] DEEPMD INFO    deepmd.train.trainer                          batch    1300 training time 1.10 s, testing time 0.01 s
+[2022-03-04 08:43:11,282] DEEPMD INFO    deepmd.train.trainer                          batch    1400 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:12,459] DEEPMD INFO    deepmd.train.trainer                          batch    1500 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:13,630] DEEPMD INFO    deepmd.train.trainer                          batch    1600 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:14,808] DEEPMD INFO    deepmd.train.trainer                          batch    1700 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:15,989] DEEPMD INFO    deepmd.train.trainer                          batch    1800 training time 1.10 s, testing time 0.01 s
+[2022-03-04 08:43:17,162] DEEPMD INFO    deepmd.train.trainer                          batch    1900 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:18,414] DEEPMD INFO    deepmd.train.trainer                          batch    2000 training time 1.10 s, testing time 0.01 s
+[2022-03-04 08:43:18,736] DEEPMD INFO    deepmd.train.trainer                          saved checkpoint model.ckpt
+[2022-03-04 08:43:19,919] DEEPMD INFO    deepmd.train.trainer                          batch    2100 training time 1.10 s, testing time 0.01 s
+[2022-03-04 08:43:21,090] DEEPMD INFO    deepmd.train.trainer                          batch    2200 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:22,265] DEEPMD INFO    deepmd.train.trainer                          batch    2300 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:23,438] DEEPMD INFO    deepmd.train.trainer                          batch    2400 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:24,613] DEEPMD INFO    deepmd.train.trainer                          batch    2500 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:25,788] DEEPMD INFO    deepmd.train.trainer                          batch    2600 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:26,960] DEEPMD INFO    deepmd.train.trainer                          batch    2700 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:28,142] DEEPMD INFO    deepmd.train.trainer                          batch    2800 training time 1.10 s, testing time 0.01 s
+[2022-03-04 08:43:29,311] DEEPMD INFO    deepmd.train.trainer                          batch    2900 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:30,488] DEEPMD INFO    deepmd.train.trainer                          batch    3000 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:31,665] DEEPMD INFO    deepmd.train.trainer                          batch    3100 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:32,842] DEEPMD INFO    deepmd.train.trainer                          batch    3200 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:34,009] DEEPMD INFO    deepmd.train.trainer                          batch    3300 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:35,178] DEEPMD INFO    deepmd.train.trainer                          batch    3400 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:43:36,350] DEEPMD INFO    deepmd.train.trainer                          batch    3500 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:37,500] DEEPMD INFO    deepmd.train.trainer                          batch    3600 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:43:38,658] DEEPMD INFO    deepmd.train.trainer                          batch    3700 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:43:39,817] DEEPMD INFO    deepmd.train.trainer                          batch    3800 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:43:40,990] DEEPMD INFO    deepmd.train.trainer                          batch    3900 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:43:42,275] DEEPMD INFO    deepmd.train.trainer                          batch    4000 training time 1.10 s, testing time 0.01 s
+[2022-03-04 08:43:42,477] DEEPMD INFO    deepmd.train.trainer                          saved checkpoint model.ckpt
+[2022-03-04 08:43:43,673] DEEPMD INFO    deepmd.train.trainer                          batch    4100 training time 1.10 s, testing time 0.01 s
+[2022-03-04 08:43:44,828] DEEPMD INFO    deepmd.train.trainer                          batch    4200 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:43:45,973] DEEPMD INFO    deepmd.train.trainer                          batch    4300 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:43:47,116] DEEPMD INFO    deepmd.train.trainer                          batch    4400 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:43:48,262] DEEPMD INFO    deepmd.train.trainer                          batch    4500 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:43:49,407] DEEPMD INFO    deepmd.train.trainer                          batch    4600 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:43:50,551] DEEPMD INFO    deepmd.train.trainer                          batch    4700 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:43:51,728] DEEPMD INFO    deepmd.train.trainer                          batch    4800 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:52,885] DEEPMD INFO    deepmd.train.trainer                          batch    4900 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:43:54,034] DEEPMD INFO    deepmd.train.trainer                          batch    5000 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:43:55,196] DEEPMD INFO    deepmd.train.trainer                          batch    5100 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:43:56,365] DEEPMD INFO    deepmd.train.trainer                          batch    5200 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:43:57,530] DEEPMD INFO    deepmd.train.trainer                          batch    5300 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:43:58,708] DEEPMD INFO    deepmd.train.trainer                          batch    5400 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:43:59,864] DEEPMD INFO    deepmd.train.trainer                          batch    5500 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:01,041] DEEPMD INFO    deepmd.train.trainer                          batch    5600 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:44:02,214] DEEPMD INFO    deepmd.train.trainer                          batch    5700 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:44:03,386] DEEPMD INFO    deepmd.train.trainer                          batch    5800 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:44:04,560] DEEPMD INFO    deepmd.train.trainer                          batch    5900 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:44:05,834] DEEPMD INFO    deepmd.train.trainer                          batch    6000 training time 1.10 s, testing time 0.01 s
+[2022-03-04 08:44:06,037] DEEPMD INFO    deepmd.train.trainer                          saved checkpoint model.ckpt
+[2022-03-04 08:44:07,203] DEEPMD INFO    deepmd.train.trainer                          batch    6100 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:08,354] DEEPMD INFO    deepmd.train.trainer                          batch    6200 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:09,505] DEEPMD INFO    deepmd.train.trainer                          batch    6300 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:10,671] DEEPMD INFO    deepmd.train.trainer                          batch    6400 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:11,828] DEEPMD INFO    deepmd.train.trainer                          batch    6500 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:12,995] DEEPMD INFO    deepmd.train.trainer                          batch    6600 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:14,147] DEEPMD INFO    deepmd.train.trainer                          batch    6700 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:15,300] DEEPMD INFO    deepmd.train.trainer                          batch    6800 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:16,449] DEEPMD INFO    deepmd.train.trainer                          batch    6900 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:17,616] DEEPMD INFO    deepmd.train.trainer                          batch    7000 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:18,788] DEEPMD INFO    deepmd.train.trainer                          batch    7100 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:44:19,956] DEEPMD INFO    deepmd.train.trainer                          batch    7200 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:21,104] DEEPMD INFO    deepmd.train.trainer                          batch    7300 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:44:22,258] DEEPMD INFO    deepmd.train.trainer                          batch    7400 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:23,411] DEEPMD INFO    deepmd.train.trainer                          batch    7500 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:24,568] DEEPMD INFO    deepmd.train.trainer                          batch    7600 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:25,736] DEEPMD INFO    deepmd.train.trainer                          batch    7700 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:26,913] DEEPMD INFO    deepmd.train.trainer                          batch    7800 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:44:28,060] DEEPMD INFO    deepmd.train.trainer                          batch    7900 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:44:29,348] DEEPMD INFO    deepmd.train.trainer                          batch    8000 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:29,540] DEEPMD INFO    deepmd.train.trainer                          saved checkpoint model.ckpt
+[2022-03-04 08:44:30,698] DEEPMD INFO    deepmd.train.trainer                          batch    8100 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:31,842] DEEPMD INFO    deepmd.train.trainer                          batch    8200 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:44:32,989] DEEPMD INFO    deepmd.train.trainer                          batch    8300 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:44:34,134] DEEPMD INFO    deepmd.train.trainer                          batch    8400 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:44:35,283] DEEPMD INFO    deepmd.train.trainer                          batch    8500 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:36,444] DEEPMD INFO    deepmd.train.trainer                          batch    8600 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:37,608] DEEPMD INFO    deepmd.train.trainer                          batch    8700 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:38,750] DEEPMD INFO    deepmd.train.trainer                          batch    8800 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:44:39,900] DEEPMD INFO    deepmd.train.trainer                          batch    8900 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:41,044] DEEPMD INFO    deepmd.train.trainer                          batch    9000 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:44:42,192] DEEPMD INFO    deepmd.train.trainer                          batch    9100 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:43,356] DEEPMD INFO    deepmd.train.trainer                          batch    9200 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:44,524] DEEPMD INFO    deepmd.train.trainer                          batch    9300 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:45,700] DEEPMD INFO    deepmd.train.trainer                          batch    9400 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:44:46,846] DEEPMD INFO    deepmd.train.trainer                          batch    9500 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:44:47,995] DEEPMD INFO    deepmd.train.trainer                          batch    9600 training time 1.07 s, testing time 0.01 s
+[2022-03-04 08:44:49,162] DEEPMD INFO    deepmd.train.trainer                          batch    9700 training time 1.08 s, testing time 0.01 s
+[2022-03-04 08:44:50,305] DEEPMD INFO    deepmd.train.trainer                          batch    9800 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:44:51,453] DEEPMD INFO    deepmd.train.trainer                          batch    9900 training time 1.06 s, testing time 0.01 s
+[2022-03-04 08:44:52,758] DEEPMD INFO    deepmd.train.trainer                          batch   10000 training time 1.09 s, testing time 0.01 s
+[2022-03-04 08:44:52,947] DEEPMD INFO    deepmd.train.trainer                          saved checkpoint model.ckpt
+[2022-03-04 08:44:52,948] DEEPMD INFO    deepmd.entrypoints.train                      finished training
+[2022-03-04 08:44:52,948] DEEPMD INFO    deepmd.entrypoints.train                      wall time: 120.796 s
